@@ -1,4 +1,6 @@
-const addtwo = (str) => {
+let dis = document.getElementById("display");
+
+const addthree = (str) => {
   let charac = [];
   let strchar = str.split("");
   let i = 2;
@@ -6,7 +8,7 @@ const addtwo = (str) => {
     charac.push(strchar[i]);
     i = i + 3;
   }
-
-  console.log(charac.join());
+  dis.innerText = charac.join("");
+  // console.log(charac.join());
 };
-addtwo("iamyourlyftdriver");
+addthree("iamyourlyftdriver");

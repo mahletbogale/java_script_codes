@@ -1,0 +1,19 @@
+body{
+    margin:0 auto;
+    background-color: brown;
+    color: white;
+    font-size: x-large;
+    align-content: center;
+    align-items: center;
+    
+    max-width: 900px;
+}
+#btn{
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+
+}
