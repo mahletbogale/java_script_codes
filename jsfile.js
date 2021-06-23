@@ -1,14 +1,16 @@
-let dis = document.getElementById("display");
-
 const addthree = (str) => {
+  let dis = document.getElementById("display");
+  let inpu = document.getElementById("inp").value;
   let charac = [];
-  let strchar = str.split("");
+  let strchar = inpu.split("");
   let i = 2;
   while (i < strchar.length) {
     charac.push(strchar[i]);
     i = i + 3;
+    
   }
-  dis.innerText = charac.join("");
-  // console.log(charac.join());
+  dis.innerHTML = charac.join("");
+ 
 };
-addthree("iamyourlyftdriver");
+addthree();
+

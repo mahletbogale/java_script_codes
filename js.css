@@ -10,10 +10,20 @@ body{
 }
 #btn{
     width: 200px;
-    height: 35px;
+    height: 39px;
     font-size: 25px;
     color: white;
     background-color: black;
     font-weight: bolder;
+    padding-bottom: 19px;
 
+}
+#inp{
+    height: 22px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    
+}
+#display{
+    color: white;
 }
